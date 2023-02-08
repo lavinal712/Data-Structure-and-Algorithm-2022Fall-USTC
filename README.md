@@ -1,4 +1,4 @@
-# Data_Structures_and_Algorithm_Experiment
+# Data Structures and Algorithm (2022Fall USTC)
 Data structure is an important course of basis technology for computer programming, studying the logical structure, the storage structure for computer data processing and the corresponding algorithm, including linear list, stack and queue, binary tree and tree, graph, lookup table and data sorting.
 
 ## Experiment
