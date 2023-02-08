@@ -26,4 +26,4 @@ Sorting algorithm.
 Insert sort of linklist.
 
 ### Exam 2
-Transform a binary tree into a threaded trinary tree.
+Transform a binary tree into a threaded ternary tree.
