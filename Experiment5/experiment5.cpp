@@ -19,7 +19,7 @@ void CopyList(SqTable L, SqTable& newL) {
     memcpy(newL.r, L.r, (L.len + 1) * sizeof(ElemType));
 }
 
-// 求一个整数的p次方
+// Find the p power of an integer
 int intpow(int n, unsigned int p) {
     int res = 1;
     for (unsigned int i = 0; i < p; ++i) {
@@ -202,7 +202,7 @@ int main() {
     }
     RandomShuffle(L);
     clock_t begin, end;
-    // 冒泡排序
+    // Bubble sort
     SqTable L1;
     CopyList(L, L1);
     begin = clock();
@@ -210,7 +210,7 @@ int main() {
     end = clock();
     printf("BubbleSort time: %g seconds\n",
            (float)(end - begin) / CLOCKS_PER_SEC);
-    // 选择排序
+    // Select sort
     SqTable L2;
     CopyList(L, L2);
     begin = clock();
@@ -218,7 +218,7 @@ int main() {
     end = clock();
     printf("SelectSort time: %g seconds\n",
            (float)(end - begin) / CLOCKS_PER_SEC);
-    // 插入排序
+    // Insert sort
     SqTable L3;
     CopyList(L, L3);
     begin = clock();
@@ -226,7 +226,7 @@ int main() {
     end = clock();
     printf("InsertSort time: %g seconds\n",
            (float)(end - begin) / CLOCKS_PER_SEC);
-    // 归并排序
+    // Merge sort
     SqTable L4;
     CopyList(L, L4);
     begin = clock();
@@ -234,7 +234,7 @@ int main() {
     end = clock();
     printf("MergeSort time: %g seconds\n",
            (float)(end - begin) / CLOCKS_PER_SEC);
-    // 快速排序
+    // Quick sort
     SqTable L5;
     CopyList(L, L5);
     begin = clock();
@@ -242,7 +242,7 @@ int main() {
     end = clock();
     printf("QuickSort time: %g seconds\n",
            (float)(end - begin) / CLOCKS_PER_SEC);
-    // 堆排序
+    // Heap sort
     SqTable L6;
     CopyList(L, L6);
     begin = clock();
