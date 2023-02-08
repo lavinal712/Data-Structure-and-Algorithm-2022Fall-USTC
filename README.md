@@ -17,3 +17,13 @@ Find the shortest path through the Digestra algorithm.
 
 ### Experiment 5
 Sorting algorithm.
+
+## Homework
+
+## Examination
+
+### Exam 1
+Insert sort of linklist.
+
+### Exam 2
+Transform a binary tree into a threaded trinary tree.
